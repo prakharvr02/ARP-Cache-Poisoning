@@ -15,3 +15,8 @@ It also restores ARP tables to their original state after the poisoning process 
 - **Scapy** library: Install it using:
   ```bash
   pip install scapy
+
+## Usage
+```bash
+python script.py <victim IP> <gateway IP> <interface>
+
